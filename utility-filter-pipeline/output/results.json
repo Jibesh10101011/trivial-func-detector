@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "code:fastapi/utils.py:create_cloned_field:108",
+    "label": "create_cloned_field",
+    "utility_score": 0.005,
+    "core_importance": 0.995,
+    "classification": "core",
+    "features": {
+      "loc": 52,
+      "complexity": 11,
+      "string_ratio": 0.002688172043010753,
+      "constant_ratio": 0.010752688172043012,
+      "comment_ratio": 0.038461538461538464,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:__init__:66",
+    "label": "__init__",
+    "utility_score": 0.011,
+    "core_importance": 0.989,
+    "classification": "core",
+    "features": {
+      "loc": 768,
+      "complexity": 10,
+      "string_ratio": 0.041822255414488425,
+      "constant_ratio": 0.06646751306945482,
+      "comment_ratio": 0.005208333333333333,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:APIRouter:670",
+    "label": "APIRouter",
+    "utility_score": 0.011,
+    "core_importance": 0.989,
+    "classification": "core",
+    "features": {
+      "loc": 3374,
+      "complexity": 63,
+      "string_ratio": 0.03784092531772098,
+      "constant_ratio": 0.0705411966300157,
+      "comment_ratio": 0.0038529934795494963,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:FastAPI:50",
+    "label": "FastAPI",
+    "utility_score": 0.012,
+    "core_importance": 0.988,
+    "classification": "core",
+    "features": {
+      "loc": 3972,
+      "complexity": 48,
+      "string_ratio": 0.03890489913544669,
+      "constant_ratio": 0.07152213780455856,
+      "comment_ratio": 0.00931520644511581,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:27",
+    "label": "__init__",
+    "utility_score": 0.013,
+    "core_importance": 0.987,
+    "classification": "core",
+    "features": {
+      "loc": 104,
+      "complexity": 11,
+      "string_ratio": 0.024263431542461005,
+      "constant_ratio": 0.09012131715771231,
+      "comment_ratio": 0.019230769230769232,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:479",
+    "label": "__init__",
+    "utility_score": 0.013,
+    "core_importance": 0.987,
+    "classification": "core",
+    "features": {
+      "loc": 109,
+      "complexity": 23,
+      "string_ratio": 0.024630541871921183,
+      "constant_ratio": 0.090311986863711,
+      "comment_ratio": 0.01834862385321101,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:APIRoute:503",
+    "label": "APIRoute",
+    "utility_score": 0.013,
+    "core_importance": 0.987,
+    "classification": "core",
+    "features": {
+      "loc": 161,
+      "complexity": 36,
+      "string_ratio": 0.01584507042253521,
+      "constant_ratio": 0.043133802816901406,
+      "comment_ratio": 0.06832298136645963,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:__init__:504",
+    "label": "__init__",
+    "utility_score": 0.014,
+    "core_importance": 0.986,
+    "classification": "core",
+    "features": {
+      "loc": 140,
+      "complexity": 47,
+      "string_ratio": 0.017329255861365953,
+      "constant_ratio": 0.04892966360856269,
+      "comment_ratio": 0.07857142857142857,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBearer:219",
+    "label": "HTTPBearer",
+    "utility_score": 0.014,
+    "core_importance": 0.986,
+    "classification": "core",
+    "features": {
+      "loc": 84,
+      "complexity": 15,
+      "string_ratio": 0.045,
+      "constant_ratio": 0.075,
+      "comment_ratio": 0.023809523809523808,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:315",
+    "label": "app",
+    "utility_score": 0.015,
+    "core_importance": 0.985,
+    "classification": "core",
+    "features": {
+      "loc": 113,
+      "complexity": 23,
+      "string_ratio": 0.040515653775322284,
+      "constant_ratio": 0.053406998158379376,
+      "comment_ratio": 0.05309734513274336,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPDigest:323",
+    "label": "HTTPDigest",
+    "utility_score": 0.015,
+    "core_importance": 0.985,
+    "classification": "core",
+    "features": {
+      "loc": 82,
+      "complexity": 15,
+      "string_ratio": 0.049723756906077346,
+      "constant_ratio": 0.07734806629834254,
+      "comment_ratio": 0.024390243902439025,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2PasswordBearer:390",
+    "label": "OAuth2PasswordBearer",
+    "utility_score": 0.015,
+    "core_importance": 0.985,
+    "classification": "core",
+    "features": {
+      "loc": 101,
+      "complexity": 10,
+      "string_ratio": 0.0635593220338983,
+      "constant_ratio": 0.08898305084745763,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBasic:96",
+    "label": "HTTPBasic",
+    "utility_score": 0.016,
+    "core_importance": 0.984,
+    "classification": "core",
+    "features": {
+      "loc": 102,
+      "complexity": 15,
+      "string_ratio": 0.06159420289855073,
+      "constant_ratio": 0.07971014492753623,
+      "comment_ratio": 0.0196078431372549,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2AuthorizationCodeBearer:502",
+    "label": "OAuth2AuthorizationCodeBearer",
+    "utility_score": 0.016,
+    "core_importance": 0.984,
+    "classification": "core",
+    "features": {
+      "loc": 100,
+      "complexity": 10,
+      "string_ratio": 0.06611570247933884,
+      "constant_ratio": 0.09090909090909091,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2:307",
+    "label": "OAuth2",
+    "utility_score": 0.035,
+    "core_importance": 0.965,
+    "classification": "core",
+    "features": {
+      "loc": 71,
+      "complexity": 9,
+      "string_ratio": 0.03804347826086957,
+      "constant_ratio": 0.059782608695652176,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/open_id_connect_url.py:OpenIdConnect:10",
+    "label": "OpenIdConnect",
+    "utility_score": 0.037,
+    "core_importance": 0.963,
+    "classification": "core",
+    "features": {
+      "loc": 66,
+      "complexity": 9,
+      "string_ratio": 0.046052631578947366,
+      "constant_ratio": 0.07236842105263158,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:add_api_route:956",
+    "label": "add_api_route",
+    "utility_score": 0.055,
+    "core_importance": 0.945,
+    "classification": "core",
+    "features": {
+      "loc": 80,
+      "complexity": 8,
+      "string_ratio": 0.001968503937007874,
+      "constant_ratio": 0.047244094488188976,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:__init__:697",
+    "label": "__init__",
+    "utility_score": 0.062,
+    "core_importance": 0.938,
+    "classification": "core",
+    "features": {
+      "loc": 213,
+      "complexity": 8,
+      "string_ratio": 0.042279411764705885,
+      "constant_ratio": 0.06801470588235294,
+      "comment_ratio": 0.009389671361502348,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:_prepare_response_content:153",
+    "label": "_prepare_response_content",
+    "utility_score": 0.063,
+    "core_importance": 0.937,
+    "classification": "core",
+    "features": {
+      "loc": 45,
+      "complexity": 9,
+      "string_ratio": 0.00641025641025641,
+      "constant_ratio": 0.03205128205128205,
+      "comment_ratio": 0.08888888888888889,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:APIWebSocketRoute:463",
+    "label": "APIWebSocketRoute",
+    "utility_score": 0.074,
+    "core_importance": 0.926,
+    "classification": "core",
+    "features": {
+      "loc": 36,
+      "complexity": 10,
+      "string_ratio": 0.003703703703703704,
+      "constant_ratio": 0.03333333333333333,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyCookie:202",
+    "label": "APIKeyCookie",
+    "utility_score": 0.113,
+    "core_importance": 0.887,
+    "classification": "core",
+    "features": {
+      "loc": 68,
+      "complexity": 6,
+      "string_ratio": 0.041379310344827586,
+      "constant_ratio": 0.06206896551724138,
+      "comment_ratio": 0.029411764705882353,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyHeader:114",
+    "label": "APIKeyHeader",
+    "utility_score": 0.113,
+    "core_importance": 0.887,
+    "classification": "core",
+    "features": {
+      "loc": 68,
+      "complexity": 6,
+      "string_ratio": 0.041379310344827586,
+      "constant_ratio": 0.06206896551724138,
+      "comment_ratio": 0.029411764705882353,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyQuery:22",
+    "label": "APIKeyQuery",
+    "utility_score": 0.113,
+    "core_importance": 0.887,
+    "classification": "core",
+    "features": {
+      "loc": 72,
+      "complexity": 6,
+      "string_ratio": 0.041379310344827586,
+      "constant_ratio": 0.06206896551724138,
+      "comment_ratio": 0.027777777777777776,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBase:68",
+    "label": "HTTPBase",
+    "utility_score": 0.136,
+    "core_importance": 0.864,
+    "classification": "core",
+    "features": {
+      "loc": 24,
+      "complexity": 12,
+      "string_ratio": 0.015625,
+      "constant_ratio": 0.046875,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:186",
+    "label": "__call__",
+    "utility_score": 0.19,
+    "core_importance": 0.81,
+    "classification": "core",
+    "features": {
+      "loc": 30,
+      "complexity": 7,
+      "string_ratio": 0.06962025316455696,
+      "constant_ratio": 0.0759493670886076,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:OAuth2PasswordRequestForm:15",
+    "label": "OAuth2PasswordRequestForm",
+    "utility_score": 0.194,
+    "core_importance": 0.806,
+    "classification": "core",
+    "features": {
+      "loc": 118,
+      "complexity": 3,
+      "string_ratio": 0.07386363636363637,
+      "constant_ratio": 0.10795454545454546,
+      "comment_ratio": 0.00847457627118644,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi:475",
+    "label": "get_openapi",
+    "utility_score": 0.207,
+    "core_importance": 0.793,
+    "classification": "core",
+    "features": {
+      "loc": 95,
+      "complexity": 29,
+      "string_ratio": 0.026573426573426574,
+      "constant_ratio": 0.04055944055944056,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:320",
+    "label": "__init__",
+    "utility_score": 0.209,
+    "core_importance": 0.791,
+    "classification": "core",
+    "features": {
+      "loc": 51,
+      "complexity": 2,
+      "string_ratio": 0.03125,
+      "constant_ratio": 0.0546875,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/open_id_connect_url.py:__init__:16",
+    "label": "__init__",
+    "utility_score": 0.211,
+    "core_importance": 0.789,
+    "classification": "core",
+    "features": {
+      "loc": 51,
+      "complexity": 2,
+      "string_ratio": 0.041666666666666664,
+      "constant_ratio": 0.07291666666666667,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:_get_openapi_operation_parameters:93",
+    "label": "_get_openapi_operation_parameters",
+    "utility_score": 0.213,
+    "core_importance": 0.787,
+    "classification": "core",
+    "features": {
+      "loc": 71,
+      "complexity": 13,
+      "string_ratio": 0.043689320388349516,
+      "constant_ratio": 0.0703883495145631,
+      "comment_ratio": 0.014084507042253521,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:129",
+    "label": "__init__",
+    "utility_score": 0.213,
+    "core_importance": 0.787,
+    "classification": "core",
+    "features": {
+      "loc": 50,
+      "complexity": 2,
+      "string_ratio": 0.04672897196261682,
+      "constant_ratio": 0.08411214953271028,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_path:252",
+    "label": "get_openapi_path",
+    "utility_score": 0.214,
+    "core_importance": 0.786,
+    "classification": "core",
+    "features": {
+      "loc": 189,
+      "complexity": 40,
+      "string_ratio": 0.04567078972407231,
+      "constant_ratio": 0.05233111322549953,
+      "comment_ratio": 0.037037037037037035,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__init__:54",
+    "label": "__init__",
+    "utility_score": 0.222,
+    "core_importance": 0.778,
+    "classification": "core",
+    "features": {
+      "loc": 48,
+      "complexity": 2,
+      "string_ratio": 0.047619047619047616,
+      "constant_ratio": 0.0761904761904762,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:api_route:1193",
+    "label": "api_route",
+    "utility_score": 0.231,
+    "core_importance": 0.769,
+    "classification": "core",
+    "features": {
+      "loc": 57,
+      "complexity": 1,
+      "string_ratio": 0.003067484662576687,
+      "constant_ratio": 0.06134969325153374,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:api_route:1038",
+    "label": "api_route",
+    "utility_score": 0.231,
+    "core_importance": 0.769,
+    "classification": "core",
+    "features": {
+      "loc": 59,
+      "complexity": 1,
+      "string_ratio": 0.0029498525073746312,
+      "constant_ratio": 0.061946902654867256,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:build_middleware_stack:995",
+    "label": "build_middleware_stack",
+    "utility_score": 0.235,
+    "core_importance": 0.765,
+    "classification": "core",
+    "features": {
+      "loc": 43,
+      "complexity": 4,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.013605442176870748,
+      "comment_ratio": 0.4883720930232558,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:websocket:1268",
+    "label": "websocket",
+    "utility_score": 0.235,
+    "core_importance": 0.765,
+    "classification": "core",
+    "features": {
+      "loc": 55,
+      "complexity": 1,
+      "string_ratio": 0.041237113402061855,
+      "constant_ratio": 0.061855670103092786,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:300",
+    "label": "__call__",
+    "utility_score": 0.236,
+    "core_importance": 0.764,
+    "classification": "core",
+    "features": {
+      "loc": 20,
+      "complexity": 7,
+      "string_ratio": 0.045454545454545456,
+      "constant_ratio": 0.06818181818181818,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:402",
+    "label": "__call__",
+    "utility_score": 0.236,
+    "core_importance": 0.764,
+    "classification": "core",
+    "features": {
+      "loc": 20,
+      "complexity": 7,
+      "string_ratio": 0.045454545454545456,
+      "constant_ratio": 0.06818181818181818,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:websocket:1121",
+    "label": "websocket",
+    "utility_score": 0.237,
+    "core_importance": 0.763,
+    "classification": "core",
+    "features": {
+      "loc": 55,
+      "complexity": 1,
+      "string_ratio": 0.04040404040404041,
+      "constant_ratio": 0.06060606060606061,
+      "comment_ratio": 0.01818181818181818,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__init__:146",
+    "label": "__init__",
+    "utility_score": 0.242,
+    "core_importance": 0.758,
+    "classification": "core",
+    "features": {
+      "loc": 44,
+      "complexity": 2,
+      "string_ratio": 0.047619047619047616,
+      "constant_ratio": 0.0761904761904762,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__init__:234",
+    "label": "__init__",
+    "utility_score": 0.242,
+    "core_importance": 0.758,
+    "classification": "core",
+    "features": {
+      "loc": 44,
+      "complexity": 2,
+      "string_ratio": 0.047619047619047616,
+      "constant_ratio": 0.0761904761904762,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__init__:60",
+    "label": "__init__",
+    "utility_score": 0.242,
+    "core_importance": 0.758,
+    "classification": "core",
+    "features": {
+      "loc": 84,
+      "complexity": 1,
+      "string_ratio": 0.06936416184971098,
+      "constant_ratio": 0.10404624277456648,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Security:2279",
+    "label": "Security",
+    "utility_score": 0.243,
+    "core_importance": 0.757,
+    "classification": "core",
+    "features": {
+      "loc": 66,
+      "complexity": 1,
+      "string_ratio": 0.058823529411764705,
+      "constant_ratio": 0.11764705882352941,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:setup:1076",
+    "label": "setup",
+    "utility_score": 0.25,
+    "core_importance": 0.75,
+    "classification": "core",
+    "features": {
+      "loc": 42,
+      "complexity": 10,
+      "string_ratio": 0.04075235109717868,
+      "constant_ratio": 0.05642633228840126,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:251",
+    "label": "__init__",
+    "utility_score": 0.252,
+    "core_importance": 0.748,
+    "classification": "core",
+    "features": {
+      "loc": 42,
+      "complexity": 2,
+      "string_ratio": 0.039603960396039604,
+      "constant_ratio": 0.07920792079207921,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:355",
+    "label": "__init__",
+    "utility_score": 0.263,
+    "core_importance": 0.737,
+    "classification": "core",
+    "features": {
+      "loc": 40,
+      "complexity": 2,
+      "string_ratio": 0.04878048780487805,
+      "constant_ratio": 0.08536585365853659,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/param_functions.py:Depends:2219",
+    "label": "Depends",
+    "utility_score": 0.275,
+    "core_importance": 0.725,
+    "classification": "core",
+    "features": {
+      "loc": 44,
+      "complexity": 1,
+      "string_ratio": 0.06521739130434782,
+      "constant_ratio": 0.13043478260869565,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:APIKeyBase:10",
+    "label": "APIKeyBase",
+    "utility_score": 0.287,
+    "core_importance": 0.713,
+    "classification": "core",
+    "features": {
+      "loc": 9,
+      "complexity": 7,
+      "string_ratio": 0.023255813953488372,
+      "constant_ratio": 0.046511627906976744,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:request_response:88",
+    "label": "request_response",
+    "utility_score": 0.306,
+    "core_importance": 0.694,
+    "classification": "core",
+    "features": {
+      "loc": 33,
+      "complexity": 2,
+      "string_ratio": 0.017341040462427744,
+      "constant_ratio": 0.04046242774566474,
+      "comment_ratio": 0.15151515151515152,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:middleware:4575",
+    "label": "middleware",
+    "utility_score": 0.311,
+    "core_importance": 0.689,
+    "classification": "core",
+    "features": {
+      "loc": 35,
+      "complexity": 1,
+      "string_ratio": 0.038461538461538464,
+      "constant_ratio": 0.038461538461538464,
+      "comment_ratio": 0.02857142857142857,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:openapi:1043",
+    "label": "openapi",
+    "utility_score": 0.312,
+    "core_importance": 0.688,
+    "classification": "core",
+    "features": {
+      "loc": 28,
+      "complexity": 2,
+      "string_ratio": 0.009708737864077669,
+      "constant_ratio": 0.009708737864077669,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:exception_handler:4621",
+    "label": "exception_handler",
+    "utility_score": 0.314,
+    "core_importance": 0.686,
+    "classification": "core",
+    "features": {
+      "loc": 34,
+      "complexity": 1,
+      "string_ratio": 0.031746031746031744,
+      "constant_ratio": 0.031746031746031744,
+      "comment_ratio": 0.029411764705882353,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Depends:763",
+    "label": "Depends",
+    "utility_score": 0.317,
+    "core_importance": 0.683,
+    "classification": "core",
+    "features": {
+      "loc": 9,
+      "complexity": 6,
+      "string_ratio": 0.0410958904109589,
+      "constant_ratio": 0.0821917808219178,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:ResponseValidationError:166",
+    "label": "ResponseValidationError",
+    "utility_score": 0.321,
+    "core_importance": 0.679,
+    "classification": "core",
+    "features": {
+      "loc": 8,
+      "complexity": 6,
+      "string_ratio": 0.04285714285714286,
+      "constant_ratio": 0.07142857142857142,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__call__:81",
+    "label": "__call__",
+    "utility_score": 0.323,
+    "core_importance": 0.677,
+    "classification": "core",
+    "features": {
+      "loc": 12,
+      "complexity": 5,
+      "string_ratio": 0.031746031746031744,
+      "constant_ratio": 0.047619047619047616,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:__init__:69",
+    "label": "__init__",
+    "utility_score": 0.325,
+    "core_importance": 0.675,
+    "classification": "core",
+    "features": {
+      "loc": 11,
+      "complexity": 5,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.05084745762711865,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_fields_from_routes:444",
+    "label": "get_fields_from_routes",
+    "utility_score": 0.343,
+    "core_importance": 0.657,
+    "classification": "core",
+    "features": {
+      "loc": 27,
+      "complexity": 9,
+      "string_ratio": 0.010050251256281407,
+      "constant_ratio": 0.01507537688442211,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/docs.py:get_swagger_ui_html:25",
+    "label": "get_swagger_ui_html",
+    "utility_score": 0.345,
+    "core_importance": 0.655,
+    "classification": "core",
+    "features": {
+      "loc": 120,
+      "complexity": 5,
+      "string_ratio": 0.0959409594095941,
+      "constant_ratio": 0.1070110701107011,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:on_event:4482",
+    "label": "on_event",
+    "utility_score": 0.351,
+    "core_importance": 0.649,
+    "classification": "core",
+    "features": {
+      "loc": 27,
+      "complexity": 1,
+      "string_ratio": 0.05454545454545454,
+      "constant_ratio": 0.05454545454545454,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__call__:487",
+    "label": "__call__",
+    "utility_score": 0.355,
+    "core_importance": 0.645,
+    "classification": "core",
+    "features": {
+      "loc": 12,
+      "complexity": 4,
+      "string_ratio": 0.07042253521126761,
+      "constant_ratio": 0.08450704225352113,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__call__:597",
+    "label": "__call__",
+    "utility_score": 0.355,
+    "core_importance": 0.645,
+    "classification": "core",
+    "features": {
+      "loc": 12,
+      "complexity": 4,
+      "string_ratio": 0.07042253521126761,
+      "constant_ratio": 0.08450704225352113,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/responses.py:UJSONResponse:22",
+    "label": "UJSONResponse",
+    "utility_score": 0.359,
+    "core_importance": 0.641,
+    "classification": "core",
+    "features": {
+      "loc": 8,
+      "complexity": 5,
+      "string_ratio": 0.09523809523809523,
+      "constant_ratio": 0.14285714285714285,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:get_request_handler:292",
+    "label": "get_request_handler",
+    "utility_score": 0.363,
+    "core_importance": 0.637,
+    "classification": "core",
+    "features": {
+      "loc": 136,
+      "complexity": 4,
+      "string_ratio": 0.031767955801104975,
+      "constant_ratio": 0.058011049723756904,
+      "comment_ratio": 0.04411764705882353,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:add_api_websocket_route:1100",
+    "label": "add_api_websocket_route",
+    "utility_score": 0.364,
+    "core_importance": 0.636,
+    "classification": "core",
+    "features": {
+      "loc": 18,
+      "complexity": 2,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0449438202247191,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/middleware/asyncexitstack.py:AsyncExitStackMiddleware:7",
+    "label": "AsyncExitStackMiddleware",
+    "utility_score": 0.367,
+    "core_importance": 0.633,
+    "classification": "core",
+    "features": {
+      "loc": 10,
+      "complexity": 4,
+      "string_ratio": 0.017241379310344827,
+      "constant_ratio": 0.05172413793103448,
+      "comment_ratio": 0.1,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:on_event:4546",
+    "label": "on_event",
+    "utility_score": 0.372,
+    "core_importance": 0.628,
+    "classification": "core",
+    "features": {
+      "loc": 24,
+      "complexity": 1,
+      "string_ratio": 0.08571428571428572,
+      "constant_ratio": 0.08571428571428572,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:openapi:1081",
+    "label": "openapi",
+    "utility_score": 0.385,
+    "core_importance": 0.615,
+    "classification": "core",
+    "features": {
+      "loc": 6,
+      "complexity": 4,
+      "string_ratio": 0.06557377049180328,
+      "constant_ratio": 0.08196721311475409,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_operation_request_body:168",
+    "label": "get_openapi_operation_request_body",
+    "utility_score": 0.387,
+    "core_importance": 0.613,
+    "classification": "core",
+    "features": {
+      "loc": 34,
+      "complexity": 6,
+      "string_ratio": 0.03271028037383177,
+      "constant_ratio": 0.04205607476635514,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:Security:776",
+    "label": "Security",
+    "utility_score": 0.388,
+    "core_importance": 0.612,
+    "classification": "core",
+    "features": {
+      "loc": 9,
+      "complexity": 3,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0784313725490196,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:777",
+    "label": "__init__",
+    "utility_score": 0.388,
+    "core_importance": 0.612,
+    "classification": "core",
+    "features": {
+      "loc": 9,
+      "complexity": 3,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0784313725490196,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/oauth2.py:__call__:378",
+    "label": "__call__",
+    "utility_score": 0.391,
+    "core_importance": 0.609,
+    "classification": "core",
+    "features": {
+      "loc": 9,
+      "complexity": 3,
+      "string_ratio": 0.044444444444444446,
+      "constant_ratio": 0.06666666666666667,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/open_id_connect_url.py:__call__:74",
+    "label": "__call__",
+    "utility_score": 0.391,
+    "core_importance": 0.609,
+    "classification": "core",
+    "features": {
+      "loc": 9,
+      "complexity": 3,
+      "string_ratio": 0.044444444444444446,
+      "constant_ratio": 0.06666666666666667,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:is_body_allowed_for_status_code:41",
+    "label": "is_body_allowed_for_status_code",
+    "utility_score": 0.396,
+    "core_importance": 0.604,
+    "classification": "core",
+    "features": {
+      "loc": 14,
+      "complexity": 3,
+      "string_ratio": 0.1276595744680851,
+      "constant_ratio": 0.2127659574468085,
+      "comment_ratio": 0.07142857142857142,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:generate_operation_id:205",
+    "label": "generate_operation_id",
+    "utility_score": 0.397,
+    "core_importance": 0.603,
+    "classification": "core",
+    "features": {
+      "loc": 12,
+      "complexity": 2,
+      "string_ratio": 0.023255813953488372,
+      "constant_ratio": 0.046511627906976744,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:99",
+    "label": "app",
+    "utility_score": 0.398,
+    "core_importance": 0.602,
+    "classification": "core",
+    "features": {
+      "loc": 21,
+      "complexity": 1,
+      "string_ratio": 0.022222222222222223,
+      "constant_ratio": 0.06666666666666667,
+      "comment_ratio": 0.19047619047619047,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:route:937",
+    "label": "route",
+    "utility_score": 0.399,
+    "core_importance": 0.601,
+    "classification": "core",
+    "features": {
+      "loc": 16,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.041666666666666664,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__init__:764",
+    "label": "__init__",
+    "utility_score": 0.41,
+    "core_importance": 0.59,
+    "classification": "core",
+    "features": {
+      "loc": 5,
+      "complexity": 3,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0967741935483871,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/encoders.py:generate_encoders_by_class_tuples:87",
+    "label": "generate_encoders_by_class_tuples",
+    "utility_score": 0.412,
+    "core_importance": 0.588,
+    "classification": "core",
+    "features": {
+      "loc": 8,
+      "complexity": 2,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.01818181818181818,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:_merge_lifespan_context:201",
+    "label": "_merge_lifespan_context",
+    "utility_score": 0.413,
+    "core_importance": 0.587,
+    "classification": "core",
+    "features": {
+      "loc": 13,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.031578947368421054,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/middleware/asyncexitstack.py:__init__:8",
+    "label": "__init__",
+    "utility_score": 0.415,
+    "core_importance": 0.585,
+    "classification": "core",
+    "features": {
+      "loc": 5,
+      "complexity": 3,
+      "string_ratio": 0.05,
+      "constant_ratio": 0.1,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:RequestValidationError:156",
+    "label": "RequestValidationError",
+    "utility_score": 0.417,
+    "core_importance": 0.583,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 3,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.07142857142857142,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:157",
+    "label": "__init__",
+    "utility_score": 0.417,
+    "core_importance": 0.583,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 3,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.07142857142857142,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__init__:167",
+    "label": "__init__",
+    "utility_score": 0.417,
+    "core_importance": 0.583,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 3,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.07142857142857142,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:PathItem:320",
+    "label": "PathItem",
+    "utility_score": 0.42,
+    "core_importance": 0.58,
+    "classification": "core",
+    "features": {
+      "loc": 13,
+      "complexity": 1,
+      "string_ratio": 0.007462686567164179,
+      "constant_ratio": 0.09701492537313433,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:websocket_session:129",
+    "label": "websocket_session",
+    "utility_score": 0.42,
+    "core_importance": 0.58,
+    "classification": "core",
+    "features": {
+      "loc": 18,
+      "complexity": 1,
+      "string_ratio": 0.020202020202020204,
+      "constant_ratio": 0.050505050505050504,
+      "comment_ratio": 0.2777777777777778,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_operation_metadata:226",
+    "label": "get_openapi_operation_metadata",
+    "utility_score": 0.421,
+    "core_importance": 0.579,
+    "classification": "core",
+    "features": {
+      "loc": 23,
+      "complexity": 7,
+      "string_ratio": 0.05128205128205128,
+      "constant_ratio": 0.05641025641025641,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Operation:304",
+    "label": "Operation",
+    "utility_score": 0.424,
+    "core_importance": 0.576,
+    "classification": "core",
+    "features": {
+      "loc": 13,
+      "complexity": 1,
+      "string_ratio": 0.0051813471502590676,
+      "constant_ratio": 0.06217616580310881,
+      "comment_ratio": 0.07692307692307693,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/docs.py:get_redoc_html:160",
+    "label": "get_redoc_html",
+    "utility_score": 0.428,
+    "core_importance": 0.572,
+    "classification": "core",
+    "features": {
+      "loc": 88,
+      "complexity": 2,
+      "string_ratio": 0.13636363636363635,
+      "constant_ratio": 0.14545454545454545,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:generate_operation_id_for_path:164",
+    "label": "generate_operation_id_for_path",
+    "utility_score": 0.43,
+    "core_importance": 0.57,
+    "classification": "core",
+    "features": {
+      "loc": 12,
+      "complexity": 1,
+      "string_ratio": 0.06557377049180328,
+      "constant_ratio": 0.08196721311475409,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Components:414",
+    "label": "Components",
+    "utility_score": 0.433,
+    "core_importance": 0.567,
+    "classification": "core",
+    "features": {
+      "loc": 11,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.036290322580645164,
+      "comment_ratio": 0.09090909090909091,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OpenAPI:434",
+    "label": "OpenAPI",
+    "utility_score": 0.434,
+    "core_importance": 0.566,
+    "classification": "core",
+    "features": {
+      "loc": 11,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.05,
+      "comment_ratio": 0.09090909090909091,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:matches:496",
+    "label": "matches",
+    "utility_score": 0.434,
+    "core_importance": 0.566,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 2,
+      "string_ratio": 0.02040816326530612,
+      "constant_ratio": 0.02040816326530612,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:matches:663",
+    "label": "matches",
+    "utility_score": 0.434,
+    "core_importance": 0.566,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 2,
+      "string_ratio": 0.02040816326530612,
+      "constant_ratio": 0.02040816326530612,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:generate_operation_summary:220",
+    "label": "generate_operation_summary",
+    "utility_score": 0.435,
+    "core_importance": 0.565,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 2,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:1322",
+    "label": "decorator",
+    "utility_score": 0.44,
+    "core_importance": 0.56,
+    "classification": "core",
+    "features": {
+      "loc": 7,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:generate_unique_id:179",
+    "label": "generate_unique_id",
+    "utility_score": 0.44,
+    "core_importance": 0.56,
+    "classification": "core",
+    "features": {
+      "loc": 5,
+      "complexity": 2,
+      "string_ratio": 0.06666666666666667,
+      "constant_ratio": 0.08333333333333333,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ParameterBase:258",
+    "label": "ParameterBase",
+    "utility_score": 0.441,
+    "core_importance": 0.559,
+    "classification": "core",
+    "features": {
+      "loc": 12,
+      "complexity": 1,
+      "string_ratio": 0.008064516129032258,
+      "constant_ratio": 0.08064516129032258,
+      "comment_ratio": 0.16666666666666666,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:__call__:1129",
+    "label": "__call__",
+    "utility_score": 0.445,
+    "core_importance": 0.555,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 2,
+      "string_ratio": 0.034482758620689655,
+      "constant_ratio": 0.06896551724137931,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/exceptions.py:__str__:171",
+    "label": "__str__",
+    "utility_score": 0.447,
+    "core_importance": 0.553,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 2,
+      "string_ratio": 0.08333333333333333,
+      "constant_ratio": 0.08333333333333333,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Info:79",
+    "label": "Info",
+    "utility_score": 0.448,
+    "core_importance": 0.552,
+    "classification": "core",
+    "features": {
+      "loc": 7,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0847457627118644,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:websocket_route:4537",
+    "label": "websocket_route",
+    "utility_score": 0.449,
+    "core_importance": 0.551,
+    "classification": "core",
+    "features": {
+      "loc": 6,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.03636363636363636,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:websocket_route:1188",
+    "label": "websocket_route",
+    "utility_score": 0.449,
+    "core_importance": 0.551,
+    "classification": "core",
+    "features": {
+      "loc": 6,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.03773584905660377,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Link:288",
+    "label": "Link",
+    "utility_score": 0.451,
+    "core_importance": 0.549,
+    "classification": "core",
+    "features": {
+      "loc": 6,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0641025641025641,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:__repr__:770",
+    "label": "__repr__",
+    "utility_score": 0.452,
+    "core_importance": 0.548,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 2,
+      "string_ratio": 0.08333333333333333,
+      "constant_ratio": 0.08333333333333333,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/http.py:HTTPBasicCredentials:15",
+    "label": "HTTPBasicCredentials",
+    "utility_score": 0.454,
+    "core_importance": 0.546,
+    "classification": "core",
+    "features": {
+      "loc": 8,
+      "complexity": 1,
+      "string_ratio": 0.09523809523809523,
+      "constant_ratio": 0.09523809523809523,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:1180",
+    "label": "decorator",
+    "utility_score": 0.455,
+    "core_importance": 0.545,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Response:297",
+    "label": "Response",
+    "utility_score": 0.459,
+    "core_importance": 0.541,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.03773584905660377,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:XML:110",
+    "label": "XML",
+    "utility_score": 0.459,
+    "core_importance": 0.541,
+    "classification": "core",
+    "features": {
+      "loc": 5,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.09090909090909091,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/responses.py:render:30",
+    "label": "render",
+    "utility_score": 0.459,
+    "core_importance": 0.541,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 2,
+      "string_ratio": 0.0625,
+      "constant_ratio": 0.125,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Encoding:243",
+    "label": "Encoding",
+    "utility_score": 0.46,
+    "core_importance": 0.54,
+    "classification": "core",
+    "features": {
+      "loc": 5,
+      "complexity": 1,
+      "string_ratio": 0.01694915254237288,
+      "constant_ratio": 0.0847457627118644,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/middleware/asyncexitstack.py:__call__:14",
+    "label": "__call__",
+    "utility_score": 0.463,
+    "core_importance": 0.537,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.03125,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/docs.py:get_swagger_ui_oauth2_redirect_html:255",
+    "label": "get_swagger_ui_oauth2_redirect_html",
+    "utility_score": 0.463,
+    "core_importance": 0.537,
+    "classification": "core",
+    "features": {
+      "loc": 80,
+      "complexity": 1,
+      "string_ratio": 0.18181818181818182,
+      "constant_ratio": 0.18181818181818182,
+      "comment_ratio": 0.0125,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:MediaType:251",
+    "label": "MediaType",
+    "utility_score": 0.463,
+    "core_importance": 0.537,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 1,
+      "string_ratio": 0.015625,
+      "constant_ratio": 0.0625,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlows:392",
+    "label": "OAuthFlows",
+    "utility_score": 0.464,
+    "core_importance": 0.536,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.08823529411764706,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:RequestBody:282",
+    "label": "RequestBody",
+    "utility_score": 0.464,
+    "core_importance": 0.536,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.037037037037037035,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Server:95",
+    "label": "Server",
+    "utility_score": 0.464,
+    "core_importance": 0.536,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.037037037037037035,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:4615",
+    "label": "decorator",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/applications.py:decorator:4662",
+    "label": "decorator",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Discriminator:105",
+    "label": "Discriminator",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:License:73",
+    "label": "License",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.05263157894736842,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlowAuthorizationCode:387",
+    "label": "OAuthFlowAuthorizationCode",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Parameter:273",
+    "label": "Parameter",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Tag:428",
+    "label": "Tag",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.05263157894736842,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:decorator:4510",
+    "label": "decorator",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__call__:109",
+    "label": "__call__",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__call__:197",
+    "label": "__call__",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:__call__:285",
+    "label": "__call__",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/base.py:SecurityBase:3",
+    "label": "SecurityBase",
+    "utility_score": 0.465,
+    "core_importance": 0.535,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.0,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OpenIdConnect:404",
+    "label": "OpenIdConnect",
+    "utility_score": 0.466,
+    "core_importance": 0.534,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 1,
+      "string_ratio": 0.05263157894736842,
+      "constant_ratio": 0.05263157894736842,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ServerVariable:89",
+    "label": "ServerVariable",
+    "utility_score": 0.466,
+    "core_importance": 0.534,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.058823529411764705,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:Contact:67",
+    "label": "Contact",
+    "utility_score": 0.468,
+    "core_importance": 0.532,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.08333333333333333,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:137",
+    "label": "app",
+    "utility_score": 0.47,
+    "core_importance": 0.53,
+    "classification": "core",
+    "features": {
+      "loc": 9,
+      "complexity": 1,
+      "string_ratio": 0.01639344262295082,
+      "constant_ratio": 0.04918032786885246,
+      "comment_ratio": 0.3333333333333333,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ExternalDocumentation:118",
+    "label": "ExternalDocumentation",
+    "utility_score": 0.472,
+    "core_importance": 0.528,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.07142857142857142,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuthFlow:370",
+    "label": "OAuthFlow",
+    "utility_score": 0.472,
+    "core_importance": 0.528,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.07142857142857142,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:APIKey:354",
+    "label": "APIKey",
+    "utility_score": 0.474,
+    "core_importance": 0.526,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 1,
+      "string_ratio": 0.06896551724137931,
+      "constant_ratio": 0.06896551724137931,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:HTTPBase:360",
+    "label": "HTTPBase",
+    "utility_score": 0.476,
+    "core_importance": 0.524,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.05263157894736842,
+      "constant_ratio": 0.05263157894736842,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:OAuth2:399",
+    "label": "OAuth2",
+    "utility_score": 0.476,
+    "core_importance": 0.524,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.05263157894736842,
+      "constant_ratio": 0.05263157894736842,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:SecurityBase:343",
+    "label": "SecurityBase",
+    "utility_score": 0.479,
+    "core_importance": 0.521,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.07142857142857142,
+      "constant_ratio": 0.07142857142857142,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/security/api_key.py:check_api_key:11",
+    "label": "check_api_key",
+    "utility_score": 0.487,
+    "core_importance": 0.513,
+    "classification": "core",
+    "features": {
+      "loc": 9,
+      "complexity": 7,
+      "string_ratio": 0.023255813953488372,
+      "constant_ratio": 0.046511627906976744,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:ParameterInType:236",
+    "label": "ParameterInType",
+    "utility_score": 0.492,
+    "core_importance": 0.508,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 1,
+      "string_ratio": 0.1875,
+      "constant_ratio": 0.1875,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:SecuritySchemeType:336",
+    "label": "SecuritySchemeType",
+    "utility_score": 0.492,
+    "core_importance": 0.508,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 1,
+      "string_ratio": 0.1875,
+      "constant_ratio": 0.1875,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/params.py:ParamTypes:17",
+    "label": "ParamTypes",
+    "utility_score": 0.492,
+    "core_importance": 0.508,
+    "classification": "core",
+    "features": {
+      "loc": 4,
+      "complexity": 1,
+      "string_ratio": 0.1875,
+      "constant_ratio": 0.1875,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:APIKeyIn:348",
+    "label": "APIKeyIn",
+    "utility_score": 0.493,
+    "core_importance": 0.507,
+    "classification": "core",
+    "features": {
+      "loc": 3,
+      "complexity": 1,
+      "string_ratio": 0.16666666666666666,
+      "constant_ratio": 0.16666666666666666,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:HTTPBearer:365",
+    "label": "HTTPBearer",
+    "utility_score": 0.496,
+    "core_importance": 0.504,
+    "classification": "core",
+    "features": {
+      "loc": 2,
+      "complexity": 1,
+      "string_ratio": 0.15384615384615385,
+      "constant_ratio": 0.15384615384615385,
+      "comment_ratio": 0.0,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:app:140",
+    "label": "app",
+    "utility_score": 0.501,
+    "core_importance": 0.499,
+    "classification": "core",
+    "features": {
+      "loc": 5,
+      "complexity": 1,
+      "string_ratio": 0.03571428571428571,
+      "constant_ratio": 0.07142857142857142,
+      "comment_ratio": 0.4,
+      "name_flag": 0
+    }
+  },
+  {
+    "id": "code:fastapi/utils.py:get_value_or_default:205",
+    "label": "get_value_or_default",
+    "utility_score": 0.563,
+    "core_importance": 0.437,
+    "classification": "core",
+    "features": {
+      "loc": 13,
+      "complexity": 3,
+      "string_ratio": 0.015151515151515152,
+      "constant_ratio": 0.015151515151515152,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/routing.py:get_websocket_app:436",
+    "label": "get_websocket_app",
+    "utility_score": 0.568,
+    "core_importance": 0.432,
+    "classification": "core",
+    "features": {
+      "loc": 23,
+      "complexity": 1,
+      "string_ratio": 0.024,
+      "constant_ratio": 0.056,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/utils.py:get_openapi_security_definitions:76",
+    "label": "get_openapi_security_definitions",
+    "utility_score": 0.582,
+    "core_importance": 0.418,
+    "classification": "core",
+    "features": {
+      "loc": 14,
+      "complexity": 2,
+      "string_ratio": 0.0,
+      "constant_ratio": 0.020202020202020204,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/security/utils.py:get_authorization_scheme_param:3",
+    "label": "get_authorization_scheme_param",
+    "utility_score": 0.633,
+    "core_importance": 0.367,
+    "classification": "utility",
+    "features": {
+      "loc": 6,
+      "complexity": 2,
+      "string_ratio": 0.06666666666666667,
+      "constant_ratio": 0.06666666666666667,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:_validate:36",
+    "label": "_validate",
+    "utility_score": 0.655,
+    "core_importance": 0.345,
+    "classification": "utility",
+    "features": {
+      "loc": 6,
+      "complexity": 1,
+      "string_ratio": 0.047619047619047616,
+      "constant_ratio": 0.047619047619047616,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  },
+  {
+    "id": "code:fastapi/openapi/models.py:validate:28",
+    "label": "validate",
+    "utility_score": 0.656,
+    "core_importance": 0.344,
+    "classification": "utility",
+    "features": {
+      "loc": 6,
+      "complexity": 1,
+      "string_ratio": 0.05555555555555555,
+      "constant_ratio": 0.05555555555555555,
+      "comment_ratio": 0.0,
+      "name_flag": 1
+    }
+  }
+]
