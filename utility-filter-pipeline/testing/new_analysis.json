@@ -1,0 +1,60 @@
+{
+  "analysisData": {
+    "graphNodes": [
+      {
+        "id": "code:app/main.py:create_app:12",
+        "label": "create_app",
+        "code": "def create_app():\n    app = FastAPI(title='My Service')\n    app.include_router(api_router)\n    return app",
+        "type": "Function"
+      },
+      {
+        "id": "code:app/utils/formatters.py:to_snake_case:5",
+        "label": "to_snake_case",
+        "code": "def to_snake_case(s: str) -> str:\n    return s.lower().replace(' ', '_')",
+        "type": "Function"
+      },
+      {
+        "id": "code:app/utils/logger.py:get_logger:10",
+        "label": "get_logger",
+        "code": "def get_logger(name: str):\n    import logging\n    return logging.getLogger(name)",
+        "type": "Function"
+      },
+      {
+        "id": "code:app/api/routes/users.py:get_user:30",
+        "label": "get_user",
+        "code": "@router.get('/users/{user_id}')\ndef get_user(user_id: int):\n    user = get_user_from_db(user_id)\n    return {'id': user.id, 'name': user.name}",
+        "type": "Function"
+      },
+      {
+        "id": "code:app/api/routes/users.py:create_user:45",
+        "label": "create_user",
+        "code": "@router.post('/users')\ndef create_user(user: UserIn):\n    new_user = save_user_to_db(user)\n    return {'id': new_user.id}",
+        "type": "Function"
+      },
+      {
+        "id": "code:app/models/user.py:User:60",
+        "label": "User",
+        "code": "class User(BaseModel):\n    id: int\n    name: str\n    email: str",
+        "type": "Class"
+      },
+      {
+        "id": "code:app/core/config.py:Settings:5",
+        "label": "Settings",
+        "code": "class Settings(BaseSettings):\n    app_name: str = 'MyApp'\n    debug: bool = False\n    database_url: str",
+        "type": "Class"
+      },
+      {
+        "id": "code:app/utils/math_ops.py:add_numbers:12",
+        "label": "add_numbers",
+        "code": "def add_numbers(a, b):\n    return a + b",
+        "type": "Function"
+      },
+      {
+        "id": "code:app/api/dependencies.py:get_db:20",
+        "label": "get_db",
+        "code": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "type": "Function"
+      }
+    ]
+  }
+}
