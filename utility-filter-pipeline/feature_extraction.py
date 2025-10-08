@@ -234,7 +234,7 @@ def main(input_json, output_csv):
         feats["type"] = node.get("type")
         rows.append(feats)
 
-    # ✅ Ensure identifier field exists for all rows
+    # Ensure identifier field exists for all rows
     for r in rows:
         if "identifier" not in r:
             r["identifier"] = f"{r['id']}::{r['label']}"
@@ -257,8 +257,8 @@ def main(input_json, output_csv):
 
     df = pd.DataFrame(final_rows)
     df.to_csv(output_csv, index=False)
-    print(f"✅ Wrote features to {output_csv}. Rows: {len(df)}")
-    print(f"📊 Graph nodes: {len(G.nodes())}, edges: {len(G.edges())}")
+    print(f"Wrote features to {output_csv}. Rows: {len(df)}")
+    print(f"Graph nodes: {len(G.nodes())}, edges: {len(G.edges())}")
 
 
 if __name__ == "__main__":
